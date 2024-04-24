@@ -4,7 +4,6 @@ function equal(input) {
         let row = input[i];
         for (let j = 0; j < row.length; j++) {
             let col = row[j];
- 
             if (i !== input.length - 1) {
                 if (col === row[j + 1]) {
                     counter++;
